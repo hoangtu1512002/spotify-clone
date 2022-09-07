@@ -1,0 +1,12 @@
+.player-music {
+    height: 6rem;
+    background-color: #0F172A;
+}
+
+#rhap_current-time {
+    color: #9c9292;
+}
+
+.rhap_time, .rhap_total-time {
+    color: #9c9292;
+}
