@@ -12,9 +12,10 @@ function Play() {
     const handleClickprev = () => {
         handleSetSong(song.id - 1);
     };
+
     return ( <div className="">
         <AudioPlayer className="player-music" 
-            src={song.url} layout="horizontal" 
+            src={song.url } layout="horizontal" 
             showSkipControls={true}
             showJumpControls={false}
             onClickNext={handleClickNext}
